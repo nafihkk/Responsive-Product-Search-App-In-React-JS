@@ -1,0 +1,30 @@
+/* SearchPage.css */
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+  margin-top: 20px; /* Ensure space below navbar */
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  width: 200px;
+
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.search-page-heading {
+    text-align: center;
+    font-size: 30px;
+    margin: 10;
+  }
